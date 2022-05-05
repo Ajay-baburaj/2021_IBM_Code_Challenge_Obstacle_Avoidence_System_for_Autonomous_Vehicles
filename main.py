@@ -18,8 +18,9 @@ if __name__ == '__main__':
             running = False
         except:
             running = True
-
-    print("coords:",path_coords)
+    
+    path_coordinate_list.append(path_coords)
+    
 
 # converting to pickle file
 # rrt = RRT((50,50),(930, 510), "ObstacleMap2.png", "DDR.png")
